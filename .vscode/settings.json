@@ -16,8 +16,7 @@
     "strings": true
   },
   "css.validate": false,
-  "rust-analyzer.linkedProjects": [
-    "./Cargo.toml",
-    "./Cargo.toml"
-  ],
+  "tailwindCSS.experimental.classRegex": [
+    "class=[^)]*?\\(\"([^\"]*)\"",
+  ]
 }
