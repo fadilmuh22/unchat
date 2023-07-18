@@ -1,14 +1,14 @@
 {
   "emmet.includeLanguages": {
-      "rust": "html",
-      "*.rs": "html"
+    "rust": "html",
+    "*.rs": "html"
   },
   "tailwindCSS.includeLanguages": {
-      "rust": "html",
-      "*.rs": "html"
+    "rust": "html",
+    "*.rs": "html"
   },
   "files.associations": {
-      "*.rs": "rust"
+    "*.rs": "rust"
   },
   "editor.quickSuggestions": {
     "other": "on",
@@ -16,7 +16,5 @@
     "strings": true
   },
   "css.validate": false,
-  "tailwindCSS.experimental.classRegex": [
-    "class=[^)]*?\\(\"([^\"]*)\"",
-  ]
+  "tailwindCSS.experimental.classRegex": ["class=[^)]*?\\(\"([^\"]*)\""]
 }

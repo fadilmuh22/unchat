@@ -25,15 +25,14 @@ pub fn ModalProvider(cx: Scope, children: ChildrenFn) -> impl IntoView {
 
     // the newtype pattern isn't *necessary* here but is a good practice
     // it avoids confusion with other possible future `WriteSignal<bool>` contexts
-    // and makes it easier to refer to it in ButtonD
-
+    // and makes it easier to refer to it in Button
     provide_context(
         cx,
         ModalContext {
-            open: open,
-            set_open: set_open,
-            set_title: set_title,
-            set_content: set_content,
+            open,
+            set_open,
+            set_title,
+            set_content,
         },
     );
 
